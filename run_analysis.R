@@ -54,14 +54,15 @@ train <- cbind(subject_train, Y_train, X_train)
 # combine test and train into 1 data set(dataset)
 dataset <- rbind(train,test)
 
-# change activity to character and assign associated names based on the activity
+# change activity to character and assign associated names based on the activity labels
+activities <- read.table("c:/DataScience_Cleaning/Project/Dataset/activity_labels.txt")
 dataset$activity<-as.character(dataset$activity)
-dataset$activity[dataset$activity=="1"]<-"Walking"
-dataset$activity[dataset$activity=="2"]<-"WalkingUp"
-dataset$activity[dataset$activity=="3"]<-"WalkingDown"
-dataset$activity[dataset$activity=="4"]<-"Sitting"
-dataset$activity[dataset$activity=="5"]<-"Standing"
-dataset$activity[dataset$activity=="6"]<-"Laying"   
+dataset$activity[dataset$activity=="1"]<-as.character(activities[1,2])
+dataset$activity[dataset$activity=="2"]<-as.character(activities[2,2])
+dataset$activity[dataset$activity=="3"]<-as.character(activities[3,2])
+dataset$activity[dataset$activity=="4"]<-as.character(activities[4,2])
+dataset$activity[dataset$activity=="5"]<-as.character(activities[5,2])
+dataset$activity[dataset$activity=="6"]<-as.character(activities[6,2])
 
 # read in feature list, make a column name list(col_name), change the column names of dataset:(dataset)
 features <- read.table("c:/DataScience_Cleaning/Project/Dataset/features.txt")
@@ -107,4 +108,4 @@ write.table(tidy_data, file="c:/DataScience_Cleaning/Project/tidy_data.txt",row.
 
 # check the text file by re-read back into dataset
 #  text_h<-read.table("c:/DataScience_Cleaning/Project/tidy_data.txt",header=TRUE)
-#  View(test_h)
+#  View(text_h)

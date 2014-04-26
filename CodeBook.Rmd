@@ -1,0 +1,209 @@
+CodeBook
+========================================================
+
+### variable description of tidy_data.txt:
+
+
+subject: integer, 
+          subject id (range:1-30)
+
+activity: character, 
+  activity type (range: LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIR, WALKING_DOWNSTAIR)
+
+tBodyAcc-mean()-X: numeric, 
+              mean value of Body Acceleration time domain signals in X-axis
+tBodyAcc-mean()-Y: numeric, 
+              mean value of Body Acceleration time domain signals in Y-axis
+tBodyAcc-mean()-Z: numeric, 
+              mean value of Body Acceleration time domain signals in Z-axis
+tGravityAcc-mean()-X: numeric,
+              mean value of Gravity Acceleration time domain signals in X-axis    
+tGravityAcc-mean()-Y: numeric,
+              mean value of Gravity Acceleration time domain signals in Y-axis       
+tGravityAcc-mean()-Z: numeric,
+              mean value of Gravity Acceleration time domain signals in Z-axis        
+tBodyAccJerk-mean()-X: numeric, 
+              mean value of Body Acceleration Jerk time domain signals in X-axis       
+tBodyAccJerk-mean()-Y: numeric,
+              mean value of Body Acceleration Jerk time domain signals in Y-axis    
+tBodyAccJerk-mean()-Z: numeric, 
+              mean value of Body Acceleration Jerk time domain signals in Z-axis        
+tBodyGyro-mean()-X: numeric, 
+              mean value of Body Gyroscope time domain signals in X-axis        
+tBodyGyro-mean()-Y: numeric, 
+               mean value of Body Gyroscope time domain signals in Y-axis        
+tBodyGyro-mean()-Z: numeric, 
+              mean value of Body Gyroscope time domain signals in Z-axis       
+tBodyGyroJerk-mean()-X: numeric, 
+              mean value of Body Gyroscope Jerk time domain signals in X-axis      
+tBodyGyroJerk-mean()-Y: numeric, 
+              mean value of Body Gyroscope Jerk time domain signals in Y-axis   
+tBodyGyroJerk-mean()-Z: numeric,
+              mean value of Body Gyroscope Jerk time domain signals in Z-axis 
+tBodyAccMag-mean(): numeric, 
+              mean value of Body Accelertion Magnitude time domain signals 
+tGravityAccMag-mean(): numeric, 
+              mean value of Gravity Accelertion Magnitude time domain signals 
+tBodyAccJerkMag-mean(): numeric,
+              mean value of Body Accelertion Jerk Magnitude time domain signals 
+tBodyGyroMag-mean(): numeric, 
+              mean value of Body Gyroscope Magnitude time domain signals 
+tBodyGyroJerkMag-mean(): numeric,
+              mean value of Body Gyroscope Jerk Magnitude time domain signals 
+fBodyAcc-mean()-X: numeric, 
+              mean value of Body Acceleration frequency domain signals in X-axis
+fBodyAcc-mean()-Y: numeric, 
+              mean value of Body Acceleration frequency domain signals in Y-axis
+fBodyAcc-mean()-Z: numeric, 
+              mean value of Body Acceleration frequency domain signals in Z-axis
+fBodyAccJerk-mean()-X: numeric, 
+         mean value of Body Acceleration Jerk frequency domain signals in X-axis
+fBodyAccJerk-mean()-Y": numeric, 
+         mean value of Body Acceleration Jerk frequency domain signals in Y-axis
+fBodyAccJerk-mean()-Z: numeric, 
+         mean value of Body Acceleration Jerk frequency domain signals in Z-axis
+fBodyGyro-mean()-X: numeric, 
+              mean value of Body Gyroscope frequency domain signals in X-axis
+fBodyGyro-mean()-Y: numeric, 
+           mean value of Body Gyroscope frequency domain signals in Y-axis
+fBodyGyro-mean()-Z: numeric, 
+            mean value of Body Gyroscope frequency domain signals in Z-axis
+fBodyAccMag-mean(): numeric, 
+           mean value of Body Acceleration Magnitude frequency domain signals 
+fBodyBodyAccJerkMag-mean(): numeric, 
+        mean value of Body Acceleration Jerk Magnitude frequency domain signals 
+fBodyBodyGyroMag-mean(): numeric, 
+          mean value of Body Gyroscope Magnitude frequency domain signals 
+fBodyBodyGyroJerkMag-mean(): numeric,  
+          mean value of Body Gyroscope Jerk Magnitude frequency domain signals            
+              
+tBodyAcc-std()-X: numeric, 
+    standard deviation value of Body Acceleration time domain signals in X-axis
+tBodyAcc-std()-Y: numeric, 
+    standard deviation value of Body Acceleration time domain signals in Y-axis
+tBodyAcc-std()-Z: numeric, 
+    standard deviation value of Body Acceleration time domain signals in Z-axis 
+tGravityAcc-std()-X: numeric, 
+    standard deviation value of Gravity Acceleration time domain signals in X-axis
+tGravityAcc-std()-Y: numeric, 
+    standard deviation value of Gravity Acceleration time domain signals in Y-axis
+tGravityAcc-std()-Z: numeric, 
+    standard deviation value of Gravity Acceleration time domain signals in Z-axis
+tBodyAccJerk-std()-X: numeric, 
+    standard deviation value of Body Acceleration Jerk time domain signals in X-axis
+tBodyAccJerk-std()-Y: numeric, 
+    standard deviation value of Body Acceleration Jerk time domain signals in Y-axis
+tBodyAccJerk-std()-Z: numeric, 
+    standard deviation value of Body Acceleration Jerk time domain signals in Z-axis
+tBodyGyro-std()-X: numeric, 
+     standard deviation value of Body Gyroscope time domain signals in X-axis
+tBodyGyro-std()-Y: numeric, 
+     standard deviation value of Body Gyroscope time domain signals in Y-axis
+tBodyGyro-std()-Z: numeric, 
+     standard deviation value of Body Gyroscope time domain signals in Z-axis
+tBodyGyroJerk-std()-X: numeric, 
+     standard deviation value of Body Gyroscope Jerk time domain signals in X-axis
+tBodyGyroJerk-std()-Y: numeric, 
+     standard deviation value of Body Gyroscope Jerk time domain signals in Y-axis 
+tBodyGyroJerk-std()-Z: numeric, 
+     standard deviation value of Body Gyroscope Jerk time domain signals in Z-axis 
+tBodyAccMag-std(): numeric, 
+      standard deviation value of Body Acceleration Magitude time domain signals
+tGravityAccMag-std(): numeric, 
+    standard deviation value of Gravity Acceleration Magitude time domain signals
+tBodyAccJerkMag-std(): numeric,
+     standard deviation value of Body Acceleration Jerk Magitude time domain signals
+tBodyGyroMag-std(): numeric,
+    standard deviation value of Body Gyrosope Magitude time domain signals
+tBodyGyroJerkMag-std(): numeric,
+    standard deviation value of Body Gyrosope Jerk Magitude time domain signals
+fBodyAcc-std()-X: numeric, 
+    standard deviation value of Body Acceleration frequency domain signals in X-axis
+fBodyAcc-std()-Y: numeric, 
+     standard deviation value of Body Acceleration frequency domain signals in Y-axis
+fBodyAcc-std()-Z: numeric, 
+    standard deviation value of Body Acceleration frequency domain signals in Z-axis
+fBodyAccJerk-std()-X: numeric, 
+    standard deviation value of Body Acceleration Jerk frequency domain signals in X-axis
+fBodyAccJerk-std()-Y: numeric, 
+     standard deviation value of Body Acceleration Jerk frequency domain signals in Y-axis 
+fBodyAccJerk-std()-Z: numeric, 
+     standard deviation value of Body Acceleration Jerk frequency domain signals in Z-axis
+fBodyGyro-std()-X: numeric, 
+      standard deviation value of Body Gyroscope frequency domain signals in X-axis
+fBodyGyro-std()-Y: numeric, 
+      standard deviation value of Body Gyroscope frequency domain signals in Y-axis
+fBodyGyro-std()-Z: numeric, 
+     standard deviation value of Body Gyroscope frequency domain signals in Z-axis
+fBodyAccMag-std(): numeric, 
+     standard deviation value of Body Acceleration Magitude frequency domain signals  
+fBodyBodyAccJerkMag-std(): numeric, 
+      standard deviation value of Body Acceleration Jerk Magitude frequency domain signals       
+fBodyBodyGyroMag-std(): numeric, 
+       standard deviation value of Body Gyroscope Magitude frequency domain signals  
+fBodyBodyGyroJerkMag-std(): numeric, 
+      standard deviation value of Body Gyroscope Jerk Magitude frequency domain signals  
+
+
+
+### The following is the detail definition from features_info.txt
+
+Feature Selection 
+=================
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+The complete list of variables of each feature vector is available in 'features.txt'
